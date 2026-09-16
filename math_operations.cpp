@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-
+//Name: AKORA SHEENAZ N
 class MathOperations {
 
 public:
