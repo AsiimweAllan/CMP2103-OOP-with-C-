@@ -1,27 +1,5 @@
-Suppose there are eight students and ten questions, and the answers are stored in a twodimensional
-list. Each row records a student’s answers to the questions, as shown in the
-following illustration
-
-## Students’ Answers to the Questions
-
-| Student   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|-----------|---|---|---|---|---|---|---|---|---|---|
-| Student 0 | A | B | A | C | C | D | E | E | A | D |
-| Student 1 | D | B | A | B | C | A | E | E | A | D |
-| Student 2 | E | D | D | A | C | B | E | E | A | D |
-| Student 3 | C | B | A | E | D | C | E | E | A | D |
-| Student 4 | A | B | D | C | C | D | E | E | A | D |
-| Student 5 | B | B | E | C | C | D | E | E | A | D |
-| Student 6 | B | B | A | C | C | D | E | E | A | D |
-| Student 7 | E | B | E | C | C | D | E | E | A | D |
-
-
-The key is stored in a one-dimensional list:
-### Key to the Questions
-
-| Key   | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
-|-------|---|---|---|---|---|---|---|---|---|---|
-| Answer| D | B | D | C | C | D | A | E | A | D |
-
-Write a program that grades the test and displays the result. To do this, the program compares each
-student’s answers with the key, counts the number of correct answers, and displays it.
+The program assigns grades to a given number of students automatically basing on their solutions and a provided marking scheme
+It utilizes a vector(2D) that is able to store the different students and their solutions 
+The solutions are provided using inputs from the user using the for loop
+After the solutions are provided we compare them with the actual solutions using if-statements to check the correctness and for each correct answern we increment the total marks of the student by 1 until all the questions have been checkef
+we can then print out the marks of each student to the user.
